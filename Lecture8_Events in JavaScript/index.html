@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 8: Events in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Priority: External JavaScript Event Handling > Inline Event Handling -->
+
+    <!-- Inline Event Handling -->
+    <button onclick="console.log('Button is Clicked.'); alert('Hello World!')">Click Me!</button>
+    <button ondblclick="alert('How are you?')">Double Click Me!</button>
+    <div onmouseover="alert('You are on div!')">This is a box.</div>
+    <div id="div">This is a box 1.</div>
+
+    <!-- External JavaScript Event Handling -->
+    <button id="btn2" onclick="alert('This is inline event handling.')">Button 2</button>
+    <div id="div2">This is another box.</div>
+    <script src="script.js"></script>
+</body>
+</html>

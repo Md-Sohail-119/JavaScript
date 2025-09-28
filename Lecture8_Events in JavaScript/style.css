@@ -1,0 +1,8 @@
+div {
+    height: 50px;
+    width: 200px;
+    background-color: peru;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}

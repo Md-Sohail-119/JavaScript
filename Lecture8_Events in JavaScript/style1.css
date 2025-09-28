@@ -1,0 +1,21 @@
+button {
+    background-color: rgb(132, 131, 131);
+    height: 100px;
+    width: 500px;
+    border: 2px solid rgb(37, 189, 189);
+    border-radius: 20px;
+}
+/* 
+body {
+    background-color: black;
+} */
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
